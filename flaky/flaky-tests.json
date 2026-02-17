@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-02-17T07:07:54.936519+00:00",
+  "analysis_period": {
+    "start": "2026-02-12",
+    "end": "2026-02-16",
+    "runs_analyzed": 12
+  },
+  "summary": {
+    "total_tests": 0,
+    "flaky_count": 0,
+    "new_flaky_count": 0,
+    "resolved_count": 0
+  },
+  "flaky_tests": [],
+  "thresholds": {
+    "min_failure_rate": 0.05,
+    "max_failure_rate": 0.95,
+    "min_failures": 2,
+    "min_executions": 3
+  },
+  "workflows_analyzed": [
+    "test-linux.yml",
+    "test-linux-libs.yml",
+    "test-linux-habitat.yml",
+    "test-linux-llm.yml",
+    "test-linux-sota.yml",
+    "test-linux-tutorials.yml"
+  ]
+}
