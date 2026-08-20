@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-08-20T06:29:28.525340+00:00",
+  "last_updated": "2026-08-20T18:49:11.890514+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
       "runs_with_data": 7,
       "total_workflow_runs": 84,
       "total_success": 63,
-      "total_failure": 3,
+      "total_failure": 4,
       "success_rate": 75.0
     },
     "last_30_days": {
@@ -14,7 +14,7 @@
       "runs_with_data": 30,
       "total_workflow_runs": 361,
       "total_success": 262,
-      "total_failure": 14,
+      "total_failure": 15,
       "success_rate": 72.6
     }
   },
@@ -22,7 +22,7 @@
     {
       "date": "2026-08-20",
       "orchestrator_ran": true,
-      "orchestrator_status": "pending",
+      "orchestrator_status": "queued",
       "orchestrator_url": "https://github.com/dtsaras/rl/actions/runs/32339772061",
       "orchestrator_run_id": 32339772061,
       "workflows": {
@@ -99,8 +99,8 @@
           "display_name": "Nightly Build"
         },
         "build-wheels-linux.yml": {
-          "status": "in_progress",
-          "conclusion": null,
+          "status": "failure",
+          "conclusion": "failure",
           "url": "https://github.com/dtsaras/rl/actions/runs/32339772061/job/96336370191",
           "display_name": "Wheels (Linux)"
         },
@@ -126,9 +126,9 @@
       "summary": {
         "total": 16,
         "success": 9,
-        "failure": 0,
+        "failure": 1,
         "skipped": 4,
-        "other": 3,
+        "other": 2,
         "success_rate": 75.0
       }
     },
