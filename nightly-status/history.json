@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-18T20:44:24.321919+00:00",
+  "last_updated": "2026-09-19T10:00:56.467411+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
@@ -14,11 +14,124 @@
       "runs_with_data": 27,
       "total_workflow_runs": 324,
       "total_success": 249,
-      "total_failure": 11,
+      "total_failure": 10,
       "success_rate": 76.9
     }
   },
   "history": [
+    {
+      "date": "2026-09-19",
+      "orchestrator_ran": true,
+      "orchestrator_status": "pending",
+      "orchestrator_url": "https://github.com/dtsaras/rl/actions/runs/35436181397",
+      "orchestrator_run_id": 35436181397,
+      "workflows": {
+        "test-linux.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/dtsaras/rl/actions/runs/35436181397/job/105879129610",
+          "display_name": "Linux Tests"
+        },
+        "test-linux-llm.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/dtsaras/rl/actions/runs/35436181397/job/105879129238",
+          "display_name": "LLM Tests"
+        },
+        "test-linux-habitat.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/dtsaras/rl/actions/runs/35436181397/job/105879128905",
+          "display_name": "Habitat Tests"
+        },
+        "test-linux-tutorials.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/dtsaras/rl/actions/runs/35436181397/job/105879128825",
+          "display_name": "Tutorials Tests"
+        },
+        "test-linux-sota.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/dtsaras/rl/actions/runs/35436181397/job/105879128822",
+          "display_name": "SOTA Tests"
+        },
+        "test-linux-libs.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/dtsaras/rl/actions/runs/35436181397/job/105879129272",
+          "display_name": "Libs Tests"
+        },
+        "test-windows-optdepts.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/dtsaras/rl/actions/runs/35436181397/job/105879128756",
+          "display_name": "Windows Tests"
+        },
+        "lint.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/dtsaras/rl/actions/runs/35436181397/job/105879128811",
+          "display_name": "Lint"
+        },
+        "docs.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/dtsaras/rl/actions/runs/35436181397/job/105879128807",
+          "display_name": "Documentation"
+        },
+        "benchmarks.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/dtsaras/rl/actions/runs/35436181397/job/105879128775",
+          "display_name": "Benchmarks"
+        },
+        "validate-test-partitioning.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/dtsaras/rl/actions/runs/35436181397/job/105879128605",
+          "display_name": "Test Partitioning"
+        },
+        "nightly_build.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/dtsaras/rl/actions/runs/35436181397/job/105879128990",
+          "display_name": "Nightly Build"
+        },
+        "build-wheels-linux.yml": {
+          "status": "cancelled",
+          "conclusion": "cancelled",
+          "url": "https://github.com/dtsaras/rl/actions/runs/35436181397/job/105879128688",
+          "display_name": "Wheels (Linux)"
+        },
+        "build-wheels-m1.yml": {
+          "status": "cancelled",
+          "conclusion": "cancelled",
+          "url": "https://github.com/dtsaras/rl/actions/runs/35436181397/job/105879128716",
+          "display_name": "Wheels (M1)"
+        },
+        "build-wheels-windows.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/dtsaras/rl/actions/runs/35436181397/job/105879128551",
+          "display_name": "Wheels (Windows)"
+        },
+        "build-wheels-aarch64-linux.yml": {
+          "status": "cancelled",
+          "conclusion": "cancelled",
+          "url": "https://github.com/dtsaras/rl/actions/runs/35436181397/job/105879128673",
+          "display_name": "Wheels (Aarch64)"
+        }
+      },
+      "summary": {
+        "total": 16,
+        "success": 9,
+        "failure": 0,
+        "skipped": 4,
+        "other": 3,
+        "success_rate": 75.0
+      }
+    },
     {
       "date": "2026-09-18",
       "orchestrator_ran": true,
@@ -9767,119 +9880,6 @@
           "status": "cancelled",
           "conclusion": "cancelled",
           "url": "https://github.com/dtsaras/rl/actions/runs/27949787910/job/82703549290",
-          "display_name": "Wheels (Aarch64)"
-        }
-      },
-      "summary": {
-        "total": 16,
-        "success": 9,
-        "failure": 1,
-        "skipped": 4,
-        "other": 2,
-        "success_rate": 75.0
-      }
-    },
-    {
-      "date": "2026-06-21",
-      "orchestrator_ran": true,
-      "orchestrator_status": "queued",
-      "orchestrator_url": "https://github.com/dtsaras/rl/actions/runs/27900285828",
-      "orchestrator_run_id": 27900285828,
-      "workflows": {
-        "test-linux.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/dtsaras/rl/actions/runs/27900285828/job/82559255615",
-          "display_name": "Linux Tests"
-        },
-        "test-linux-llm.yml": {
-          "status": "skipped",
-          "conclusion": "skipped",
-          "url": "https://github.com/dtsaras/rl/actions/runs/27900285828/job/82559255432",
-          "display_name": "LLM Tests"
-        },
-        "test-linux-habitat.yml": {
-          "status": "skipped",
-          "conclusion": "skipped",
-          "url": "https://github.com/dtsaras/rl/actions/runs/27900285828/job/82559255538",
-          "display_name": "Habitat Tests"
-        },
-        "test-linux-tutorials.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/dtsaras/rl/actions/runs/27900285828/job/82559255589",
-          "display_name": "Tutorials Tests"
-        },
-        "test-linux-sota.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/dtsaras/rl/actions/runs/27900285828/job/82559255598",
-          "display_name": "SOTA Tests"
-        },
-        "test-linux-libs.yml": {
-          "status": "skipped",
-          "conclusion": "skipped",
-          "url": "https://github.com/dtsaras/rl/actions/runs/27900285828/job/82559255545",
-          "display_name": "Libs Tests"
-        },
-        "test-windows-optdepts.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/dtsaras/rl/actions/runs/27900285828/job/82559255709",
-          "display_name": "Windows Tests"
-        },
-        "lint.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/dtsaras/rl/actions/runs/27900285828/job/82559255419",
-          "display_name": "Lint"
-        },
-        "docs.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/dtsaras/rl/actions/runs/27900285828/job/82559255720",
-          "display_name": "Documentation"
-        },
-        "benchmarks.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/dtsaras/rl/actions/runs/27900285828/job/82559255327",
-          "display_name": "Benchmarks"
-        },
-        "validate-test-partitioning.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/dtsaras/rl/actions/runs/27900285828/job/82559255322",
-          "display_name": "Test Partitioning"
-        },
-        "nightly_build.yml": {
-          "status": "skipped",
-          "conclusion": "skipped",
-          "url": "https://github.com/dtsaras/rl/actions/runs/27900285828/job/82559255651",
-          "display_name": "Nightly Build"
-        },
-        "build-wheels-linux.yml": {
-          "status": "cancelled",
-          "conclusion": "cancelled",
-          "url": "https://github.com/dtsaras/rl/actions/runs/27900285828/job/82559255528",
-          "display_name": "Wheels (Linux)"
-        },
-        "build-wheels-m1.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/dtsaras/rl/actions/runs/27900285828/job/82559255531",
-          "display_name": "Wheels (M1)"
-        },
-        "build-wheels-windows.yml": {
-          "status": "cancelled",
-          "conclusion": "cancelled",
-          "url": "https://github.com/dtsaras/rl/actions/runs/27900285828/job/82559255569",
-          "display_name": "Wheels (Windows)"
-        },
-        "build-wheels-aarch64-linux.yml": {
-          "status": "failure",
-          "conclusion": "failure",
-          "url": "https://github.com/dtsaras/rl/actions/runs/27900285828/job/82559255534",
           "display_name": "Wheels (Aarch64)"
         }
       },
