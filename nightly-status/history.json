@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-30T11:38:40.674217+00:00",
+  "last_updated": "2026-09-30T22:06:13.732528+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
@@ -22,7 +22,7 @@
     {
       "date": "2026-09-30",
       "orchestrator_ran": true,
-      "orchestrator_status": "pending",
+      "orchestrator_status": "queued",
       "orchestrator_url": "https://github.com/dtsaras/rl/actions/runs/36709700688",
       "orchestrator_run_id": 36709700688,
       "workflows": {
